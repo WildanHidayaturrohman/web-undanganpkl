@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Undangan</title>
+  <link rel="stylesheet" href="begin.css" />
+</head>
+<body>
+
+  <!-- Background video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="intro-selamat-datang-1-no-copyright-ytshorts.savetube.me.mp4" type="video/mp4" />
+    Browser Anda tidak mendukung video background.
+  </video>
+
+  <!-- Musik otomatis -->
+  <audio autoplay loop hidden>
+    <source src="Intro Selamat Datang (1) no copyright-yt.savetube.me.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Form login -->
+  <div class="login-container">
+    <h2>Login dulu yaaa</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Sandi" required />
+      <button type="submit">Masuk</button>
+    </form>
+    <p id="error" class="error"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
